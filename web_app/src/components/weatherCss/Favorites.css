@@ -1,0 +1,57 @@
+.favorites-container {
+  margin-top: 20px;
+}
+
+.favorites-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.add-favorite-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.add-favorite-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.favorites-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+.favorite-item span {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.favorite-item span:hover {
+  text-decoration: underline;
+}
+
+.remove-favorite-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
